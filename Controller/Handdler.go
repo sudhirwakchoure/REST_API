@@ -3,13 +3,11 @@ package Controller
 import (
 	"REST_API/Model"
 	utility "REST_API/Utility"
-	"os"
-
 	"encoding/json"
 	"fmt"
 	"log"
-
 	"net/http"
+	"os"
 
 	"github.com/gorilla/mux"
 	"go.mongodb.org/mongo-driver/bson"
